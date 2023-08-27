@@ -18,4 +18,3 @@
 
                 setTimeout("clockTicking()", 1000);
             }
-            

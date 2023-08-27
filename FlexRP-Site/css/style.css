@@ -1,0 +1,411 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:lightgray;
+}
+body
+{
+    background: url(img/background.png);
+    background-attachment:fixed;
+    margin: 0;
+}
+
+/*====FlexRP Main Styles====START*/ 
+
+#flexrp-main-container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flexrp-main-logo
+{
+    background-color: #1B1B1B;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#flexrp-main-menu
+{
+    width:980px;
+    font-weight: 800;
+    background-color: #2B2B2B;
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+}
+
+.flexrp-main-menu-option
+{
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px #5A0000 solid;
+}
+.flexrp-main-menu-option:hover
+{
+    background-color: #5A0000;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#flexrp-main-content
+{
+    margin-top: 10px;
+    float: left;
+    padding: 40px;
+    width: 920px;
+    background-color:  #2B2B2B;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#flexrp-main-footer
+{   
+    clear: both;
+    padding: 10px;
+    width: 980px;
+    background-color: #1B1B1B;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/*====FlexRP Main Styles====END*/ 
+
+
+/*====FlexRP Wikipedia Main Styles====Start*/
+
+#flexrp-wikipedia-logo
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flexrp-wikipedia-content{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #1B1B1B; 
+}
+
+#flexrp-wikipedia-welcome
+{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+
+}
+
+#flexrp-wikipedia-characters{
+    background-color: #2B2B2B;
+    height: 300px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#flexrp-wikipedia-characters > a > img{
+    border: #5A0000 3px ridge;
+    border-radius: 10px;
+    margin-left: 52.5px;
+}
+
+#flexrp-wikipedia-header-3{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+
+
+#flexrp-wikipedia-units{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#flexrp-wikipedia-units > a > img{
+    border: #5A0000 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+#flexrp-wikipedia-business{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#flexrp-wikipedia-business > a > img{
+    border: #5A0000 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+
+#flexrp-wikipedia-factions{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#flexrp-wikipedia-factions > a > img{
+    border: #5A0000 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+/*====FlexRP Wikipedia Main Styles====END*/
+
+/*====FlexRP Wikipedia Character Styles====START*/
+
+#flexrp-wikipedia-characters-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 25px;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#flexrp-wikipedia-characters-content{
+    width: 1200px;
+    height: 65px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-top: #5A0000 2px solid;
+    border-bottom: #5A0000 2px solid;
+    
+}
+#flexrp-wikipedia-characters-content-alhpabet-shortcut{
+    width: 1200px;
+    height: 25px;
+}
+
+#flexrp-wikipedia-characters-content-alhpabet-shortcut li{
+    display: block;
+    float: left;
+    padding-left: 14px;
+
+}
+
+#flexrp-wikipedia-characters-content-alhpabet-shortcut a li {
+    text-decoration: none;
+}
+
+#flexrp-wikipedia-characters-content-alhpabet-shortcut a li:hover {
+    text-decoration: underline;
+}
+
+#flexrp-wikipedia-characters-members{
+    width: 600px;
+    height: 2780px;
+    margin: auto;
+    padding-top: 50px;
+    clear: both;
+    font-size: 20px;
+}
+
+#flexrp-wikipedia-first-char{
+    font-size: 25px;
+    text-align: left;
+    width: 600px;
+    border-bottom: #5A0000 2px solid;
+    
+}
+
+#flexrp-wikipedia-member{
+    text-align: left;
+    list-style-type: none;
+}
+
+#flexrp-wikipedia-member a{
+    color: #648de5;
+    text-decoration: none;
+}
+
+#flexrp-wikipedia-member a:hover{
+    color: #648de5;
+    text-decoration: underline;
+}
+
+/*====FlexRP Wikipedia Character Styles====END*/
+
+/*====FlexRP Wikipedia Character Sidemenu Styles====START*/
+
+#flexrp-wikipedia-sidemenu
+{
+    float: right;
+    width: 250px;
+    margin: 0;
+    background-color: #333333;
+    font-size: 20px;
+    text-align: center;
+}
+
+#flexrp-wikipedia-sidemenu-header
+{
+    float: right;
+    width: 250px;
+    background-color: #5A0000 ;
+    font-size: 20px;
+    text-align: center;
+}
+.flexrp-wikipedia-sidemenu-info
+{
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+/*====FlexRP Wikipedia Character Sidemenu Styles====END*/
+
+/*====FlexRP Wikipedia Characters Styles====START*/
+
+#flexrp-wikipedia-characters-main-header
+{
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#flexrp-wikipedia-character-info{
+    margin: 0;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right:275px;
+}
+
+#flexrp-character-bio-header{
+    padding-left: 20px;
+    border-bottom: solid 2px #5A0000;
+}
+
+#flexrp-wikipedia-character-info a{
+    color: #5A0000;
+    font-size: 20px;
+}
+
+
+/*====FlexRP Wikipedia Characters Styles====END*/
+
+
+/*====FlexRP Forum Styles====START*/
+
+#flexrp-forum-logo
+{
+    background: url(img/MENU.png) 20%;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px ridge #5A0000;
+}
+#flexrp-forum-content
+{
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 95%;
+    background-color: #444444;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+.flexrp-forum-option
+{
+    color: lightgray;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #333333;
+    border:#5A0000 2px ridge;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flexrp-forum-option:hover
+{
+    background-color:#5A0000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+}
+
+/*====FlexRP Forum Styles====END*/
+
+/*====FlexRP Vehicles Styles====START*/
+
+.flexrp-vehicles-skin
+{
+    padding: 10px;
+    border: 2px black solid;
+    text-align: center;
+    background-color:#444444;
+    border-radius: 25px;
+}
+.flexrp-vehicles-skin:hover
+{
+    background-color: #5A0000;
+    transition: 1s;
+    cursor:default;
+}
+#flexrp-vehicles-img
+{
+margin-left:33%;
+margin-right: 33%;
+}
+
+/*====FlexRP Vehicles Styles====END*/
+
+/*====FlexRP Skins Styles====START*/
+
+.flexrp-skins-skin
+{
+    padding: 10px;
+    border: 2px black solid;
+    text-align: center;
+    background-color:#444444;
+    border-radius: 25px;
+}
+.flexrp-skins-skin:hover
+{
+    background-color: #5A0000;
+    transition: 1s;
+}
+#flexrp-skins-skinLogo
+{
+margin-left: 720px;
+margin-right: 700px;
+}
+
+/*====FlexRP Skins Styles====END*/
