@@ -1,0 +1,242 @@
+body
+{
+    background: url(img/background.png);
+    background-attachment:fixed;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#logo{
+    margin-top: 40px;
+    margin-left: 350px;
+
+}
+#page_main{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3000px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #1B1B1B; 
+}
+#page_main_welcome
+{
+    margin: 0;
+    text-align: center;
+    color: lightgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+
+}
+
+#page_main_characters{
+    background-color: #2B2B2B;
+    height: 300px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+#page_main_characters > a > img{
+    border: darkred 3px ridge;
+    border-radius: 10px;
+    margin-left: 52.5px;
+}
+
+#page_main_h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightgray;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#page_main_units{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+#page_main_units > a > img{
+    border: darkred 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+#page_main_business{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+#page_main_business > a > img{
+    border: darkred 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+#page_main_factions{
+    background-color: #2B2B2B;
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    border-radius: 20px;
+}
+#page_main_factions > a > img{
+    border: darkred 3px ridge;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 52.5px;
+}
+
+#page_characters_header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightgray;
+    text-align: left;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#page_characters_content{
+    width: 1200px;
+    height: 65px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightgray;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-top: darkred 2px solid;
+    border-bottom: darkred 2px solid;
+    
+}
+#page_characters_content_alphabet_shortcuts{
+    width: 1200px;
+    height: 25px;
+}
+
+#page_characters_content_alphabet_shortcuts li{
+    display: block;
+    float: left;
+    padding-left: 14px;
+
+}
+
+#page_characters_content_alphabet_shortcuts a li {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#page_characters_content_alphabet_shortcuts a li:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+#page_characters_members{
+    width: 600px;
+    height: 2780px;
+    margin: auto;
+    padding-top: 50px;
+    clear: both;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightgray;
+    font-size: 20px;
+}
+
+#page_first_char{
+    font-size: 25px;
+    text-align: left;
+    width: 600px;
+    border-bottom: darkred 2px solid;
+    
+}
+
+#page_member{
+    text-align: left;
+    list-style-type: none;
+}
+
+#page_member a{
+    color: #648de5;
+    text-decoration: none;
+}
+
+#page_member a:hover{
+    color: #648de5;
+    text-decoration: underline;
+}
+
+#character_chris_smith{
+    margin: 0;
+    color: lightgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    padding: 25px;;
+}
+
+#chris_smith_bio_header{
+    color: lightgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 850px;
+    float: left;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-left: 25px;
+    border-bottom: solid 2px #590000;
+}
+
+#chris_smith_bio{
+    color: lightgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 850px;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#chris_smith_bio a{
+    color: #590000;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#chris_main_info{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    background-color: #2B2B2B;
+    width: 250px;
+    height: 1610px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -75px;
+}
+
+#chris_main_info p{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #590000;
+}
+
+#chris_image{
+    margin-bottom: -6px;
+}
+
+#data_value{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+/* img text color #8C0000*/ 
+ 
